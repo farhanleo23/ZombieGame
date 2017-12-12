@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: e4aa5ac31bb7442518a1743e7ab00f60
+timeCreated: 1477774239
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body_zomb
+    100002: brian_mesh
+    100004: brian_mesh_dead
+    100006: brian_mesh_happy
+    100008: brian_mesh_sleeping
+    100010: butt_zomb
+    100012: eye_l_zomb
+    100014: eye_r_zomb
+    100016: face_zomb
+    100018: hair_zomb
+    100020: head_zomb
+    100022: left_arm_zomb
+    100024: left_hand_zomb
+    100026: left_shoulder_zomb
+    100028: //RootNode
+    100030: right_arm_zomb
+    100032: right_hand_zomb
+    100034: right_shoulder_zomb
+    100036: root
+    400000: body_zomb
+    400002: brian_mesh
+    400004: brian_mesh_dead
+    400006: brian_mesh_happy
+    400008: brian_mesh_sleeping
+    400010: butt_zomb
+    400012: eye_l_zomb
+    400014: eye_r_zomb
+    400016: face_zomb
+    400018: hair_zomb
+    400020: head_zomb
+    400022: left_arm_zomb
+    400024: left_hand_zomb
+    400026: left_shoulder_zomb
+    400028: //RootNode
+    400030: right_arm_zomb
+    400032: right_hand_zomb
+    400034: right_shoulder_zomb
+    400036: root
+    4300000: brian_mesh
+    4300002: brian_mesh_dead
+    4300004: brian_mesh_happy
+    4300006: brian_mesh_sleeping
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: brian_mesh
+    13700002: brian_mesh_dead
+    13700004: brian_mesh_happy
+    13700006: brian_mesh_sleeping
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micro_zombie_brian_mat
+    second: {fileID: 2100000, guid: d75d53c94c75e40a490554336ffb999a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
