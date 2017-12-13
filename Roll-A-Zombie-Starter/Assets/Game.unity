@@ -369,6 +369,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999994, z: 1}
   m_Center: {x: 0, y: -0.0000019073486, z: 0.00000047683716}
+--- !u!114 &633960789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 633960784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be9dde163c6543a9abe97e4247d708d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1024859395}
 --- !u!1 &717975336 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000010312657222, guid: e74b56ca326704bd19eabbb585d06ba2,
@@ -386,6 +398,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999994, z: 1}
   m_Center: {x: 0, y: -0.0000019073486, z: 0.00000047683716}
+--- !u!114 &717975341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717975336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be9dde163c6543a9abe97e4247d708d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1024859395}
 --- !u!1 &859188279 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000012767119158, guid: 8cbcc91d45eac47099e8ca336fc4edf8,
@@ -575,7 +599,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024859389}
   m_LocalRotation: {x: 0.21772362, y: 0.01714178, z: 0.0029754539, w: 0.9758554}
-  m_LocalPosition: {x: 7.82, y: 11.93, z: -10.2}
+  m_LocalPosition: {x: 8.3, y: 10.99, z: -10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -592,7 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670fea97e4d13460cb1c29416284847a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textScore: {fileID: 0}
+  textScore: {fileID: 1018796557}
   selectedZombie: {fileID: 859188279}
   zombies:
   - {fileID: 859188279}
@@ -660,6 +684,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999994, z: 1}
   m_Center: {x: 0, y: -0.0000019073486, z: 0.00000047683716}
+--- !u!114 &1581152262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581152257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be9dde163c6543a9abe97e4247d708d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1024859395}
 --- !u!1 &1784417568
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +884,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.99999994, z: 1}
   m_Center: {x: 0, y: -0.0000019073486, z: 0.00000047683716}
+--- !u!114 &1879594279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879594274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be9dde163c6543a9abe97e4247d708d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1024859395}
 --- !u!1 &1924328614 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000012677142930, guid: 99b4a733a53b1498eb35f0cde4df8e63,
@@ -901,7 +949,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.09213113
+      value: -0.108554475
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 2}
       propertyPath: m_LocalRotation.y
@@ -913,7 +961,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9957469
+      value: 0.9940905
       objectReference: {fileID: 0}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 2}
       propertyPath: m_RootOrder
@@ -926,7 +974,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: a3b1457832d76654eae613a68fbc8aef, type: 2}
     - target: {fileID: 4000010224391686, guid: e74b56ca326704bd19eabbb585d06ba2, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -10.5720005
+      value: -12.464001
       objectReference: {fileID: 0}
     - target: {fileID: 23000013407126482, guid: e74b56ca326704bd19eabbb585d06ba2,
         type: 2}

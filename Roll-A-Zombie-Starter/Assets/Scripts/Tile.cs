@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour {
 
+	public GameManager gameManager;
 	// Use this for initialization
 	void Start () {
 		
@@ -12,5 +13,10 @@ public class Tile : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void OnTriggerEnter(Collider other){
+
+		gameManager.AddPoint ();
 	}
 }
